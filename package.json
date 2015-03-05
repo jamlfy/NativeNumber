@@ -1,0 +1,24 @@
+{
+  "name": "nativenumber",
+  "description": "Is a creator to native numbers in Java",
+  "version": "0.1.0",
+  "keywords": ["NativeScript", "Java", "convert", "number", "numbers"],
+  "bugs": {
+    "url" : "https://github.com/alejonext/NativeNumber"
+  },
+  "main" : "lib.js",
+  "author": {
+    "name": "AlejoNext",
+    "email": "alejonext@gmail.com",
+    "web": "http://alejonext.co"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alejonext/NativeNumber.git"
+  },
+  "dependencies": {
+  },
+  "engines" : {
+    "node" : ">=0.10.3"
+  }
+}
