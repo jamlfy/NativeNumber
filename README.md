@@ -3,6 +3,7 @@ Native Number for NativeScript
 
 
 ```javascript
+require('.../node_modules/nativenumber');
 
 var num = 5000.483;
 

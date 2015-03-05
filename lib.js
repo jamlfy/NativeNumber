@@ -9,7 +9,10 @@ Number.prototype.Byte = function() {
 };
 
 Number.prototype.Short = function() {
-	return new java.lang.Short(this);
+	if( this === +this || ( this > MIN && this < MAX ) )
+		return new java.lang.Short(this);
+
+	return this.Long();
 };
 
 Number.prototype.Integer = function() {
@@ -28,5 +31,5 @@ Number.prototype.Long = function() {
 	if( this !== +this || this < MIN || this > MAX )
 		return  new java.lang.Long(this);
 
-	return this.Float();
+	return this.Short();
 };

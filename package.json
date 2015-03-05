@@ -1,7 +1,7 @@
 {
   "name": "nativenumber",
   "description": "Is a creator to native numbers in Java",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "keywords": ["NativeScript", "Java", "convert", "number", "numbers"],
   "bugs": {
     "url" : "https://github.com/alejonext/NativeNumber"
